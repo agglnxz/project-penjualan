@@ -5,6 +5,16 @@
           <i class="ti ti-menu-2"></i>
         </a>
       </li>
+      <li class="nav-item d-none d-lg-block">
+        <a class="nav-link nav-icon-hover" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <i class="ti ti-search"></i>
+        </a>
+      </li>
+    </ul>
+    <ul class="navbar-nav quick-links d-none d-lg-flex">
+      <li class="nav-item dropdown-hover d-none d-lg-block">
+        <a class="nav-link" href="#">Kasir</a>
+      </li>
     </ul>
     <div class="d-block d-lg-none">
       <img src="https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/images/logos/dark-logo.svg" class="dark-logo" width="180" alt="" />
@@ -145,19 +155,6 @@
                   </a>
                 </div>
                 <div class="d-grid py-4 px-7 pt-8">
-                  <div class="upgrade-plan bg-light-primary position-relative overflow-hidden rounded-4 p-4 mb-9">
-                    <div class="row">
-                      <div class="col-6">
-                        <h5 class="fs-4 mb-3 w-50 fw-semibold text-dark">Unlimited Access</h5>
-                        <button class="btn btn-primary text-white">Upgrade</button>
-                      </div>
-                      <div class="col-6">
-                        <div class="m-n4">
-                          <img src="../../dist/images/backgrounds/unlimited-bg.png" alt="" class="w-100">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                   <a href="authentication-login.html" class="btn btn-outline-primary">Log Out</a>
                 </div>
               </div>

@@ -23,7 +23,7 @@
           <span>
             <i class="ti ti-shopping-cart"></i>
           </span>
-          <span class="hide-menu">eCommerce</span>
+          <span class="hide-menu">Data Laporan</span>
         </a>
       </li>
       <li class="sidebar-item">
@@ -31,24 +31,42 @@
           <span>
             <i class="ti ti-cpu"></i>
           </span>
-          <span class="hide-menu">Crypto</span>
+          <span class="hide-menu">Setting Diskon</span>
         </a>
       </li>
       <li class="sidebar-item">
-        <a class="sidebar-link" href="index5.html" aria-expanded="false">
-          <span>
-            <i class="ti ti-activity-heartbeat"></i>
+        <a class="sidebar-link has-arrow" href="#" aria-expanded="false">
+          <span class="d-flex">
+            <i class="ti ti-chart-donut-3"></i>
           </span>
-          <span class="hide-menu">General</span>
+          <span class="hide-menu">Data Master</span>
         </a>
-      </li>
-      <li class="sidebar-item">
-        <a class="sidebar-link" href="index6.html" aria-expanded="false">
-          <span>
-            <i class="ti ti-playlist"></i>
-          </span>
-          <span class="hide-menu">Music</span>
-        </a>
+        <ul aria-expanded="false" class="collapse first-level">
+          <li class="sidebar-item">
+            <a href="#" class="sidebar-link">
+              <div class="round-16 d-flex align-items-center justify-content-center">
+                <i class="ti ti-circle"></i>
+              </div>
+              <span class="hide-menu">Data User</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="#" class="sidebar-link">
+              <div class="round-16 d-flex align-items-center justify-content-center">
+                <i class="ti ti-circle"></i>
+              </div>
+              <span class="hide-menu">Kategori Barang</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="#" class="sidebar-link">
+              <div class="round-16 d-flex align-items-center justify-content-center">
+                <i class="ti ti-circle"></i>
+              </div>
+              <span class="hide-menu">Data Barang</span>
+            </a>
+          </li>
+        </ul>
       </li>
     </ul>
   </nav>
